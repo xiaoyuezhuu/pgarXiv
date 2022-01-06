@@ -1,0 +1,14 @@
+Package: pgarXiv
+Type: Package
+Title: Makes plots for the perceptual gambling paper on arXiv
+Version: 0.1.0
+Author: Xiaoyue Zhu
+Maintainer: Xiaoyue Zhu <xz1634@pm.me>
+Description: This pacakge makes all the plots (main and supplementary) for A rodent paradigm for studying perceptual decisions under asymmetric reward by
+    Xiaoyue Zhu, Jeffrey C Erlich. https://arxiv.org/abs/2112.12278
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:  R (>= 3.5.0), purrr, dplyr, tidyr, tidybayes, rstan, loo, modelr, brms, lme4, nimble, ggplot2, bayesplot, patchwork, ggExtra,
+    stringr, latex2exp, jsonlite
+RoxygenNote: 7.0.2
